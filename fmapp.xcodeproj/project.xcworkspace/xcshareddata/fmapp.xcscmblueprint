@@ -1,0 +1,43 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "76106202FE4248E0D87DDC1398E66B22DF955C3E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "c186e61a-cb16-4a30-a68e-110112d613c2++6512" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "c186e61a-cb16-4a30-a68e-110112d613c2++6512" : 0,
+    "088BB2B4F6C876EC8745B12C11C45711A8856E2D" : 0,
+    "76106202FE4248E0D87DDC1398E66B22DF955C3E" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E2E945D6-5A74-4BB3-9B7A-BF822BA5E5F0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "c186e61a-cb16-4a30-a68e-110112d613c2++6512" : "%E8%9E%8D%E6%89%98%E9%87%91%E8%9E%8D%E5%9C%A3%E8%AF%9E%E7%89%88\/",
+    "088BB2B4F6C876EC8745B12C11C45711A8856E2D" : "DVN\/",
+<<<<<<< HEAD
+    "76106202FE4248E0D87DDC1398E66B22DF955C3E" : "gbrtjr2016\/"
+=======
+    "76106202FE4248E0D87DDC1398E66B22DF955C3E" : "%E8%9E%8D%E6%89%98%E9%87%91%E8%9E%8D%E6%9B%B4%E6%94%B9%E7%89%88%E6%9C%AC\/"
+>>>>>>> 6a5b37f0525c9b29c1bcd95084ca8e165d79d759
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "fmapp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "fmapp.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.coding.net\/zdx1989\/JNRT.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "088BB2B4F6C876EC8745B12C11C45711A8856E2D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.coding.net\/zdx1989\/gbrtjr2016.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "76106202FE4248E0D87DDC1398E66B22DF955C3E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/192.168.1.100",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "c186e61a-cb16-4a30-a68e-110112d613c2++6512"
+    }
+  ]
+}

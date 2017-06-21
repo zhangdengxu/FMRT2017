@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="XMRecommendView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gVx-Qg-0Oh">
+                    <rect key="frame" x="15" y="17" width="344" height="165"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="推荐人佣金结算上_03.png" translatesAutoresizingMaskIntoConstraints="NO" id="Er1-g9-KUk">
+                            <rect key="frame" x="0.0" y="0.0" width="344" height="130"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="Er1-g9-KUk" secondAttribute="height" multiplier="172:65" id="N8q-YN-ToZ"/>
+                            </constraints>
+                        </imageView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jGj-BQ-Z9t">
+                            <rect key="frame" x="0.0" y="120" width="344" height="45"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="推荐人佣金结算下2_03.png" translatesAutoresizingMaskIntoConstraints="NO" id="Mlw-eD-sp2">
+                                    <rect key="frame" x="0.0" y="0.0" width="344" height="45"/>
+                                </imageView>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gOZ-LD-Qfo">
+                                    <rect key="frame" x="0.0" y="0.0" width="172" height="45"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="本月累计佣金tuijian_03.png" translatesAutoresizingMaskIntoConstraints="NO" id="Z6N-p9-A1c">
+                                            <rect key="frame" x="133" y="10" width="20" height="25"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="20" id="3EJ-jG-l5b"/>
+                                                <constraint firstAttribute="height" constant="25" id="HBb-QL-lJ2"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kjb-wm-h2g">
+                                            <rect key="frame" x="8" y="3" width="111" height="20"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="20" id="t0G-fo-tCR"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="本月累计佣金：" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iji-Vb-z3a">
+                                            <rect key="frame" x="8" y="20" width="111" height="21"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="21" id="ZSx-F9-gut"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="11f-xP-Qoz">
+                                            <rect key="frame" x="0.0" y="0.0" width="172" height="45"/>
+                                            <connections>
+                                                <action selector="currentMonthMoneyButtonOnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="NVz-Tb-EIv"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="kjb-wm-h2g" secondAttribute="trailing" constant="52.5" id="09c-YP-sZr"/>
+                                        <constraint firstAttribute="trailing" secondItem="11f-xP-Qoz" secondAttribute="trailing" id="BRu-vD-wbY"/>
+                                        <constraint firstItem="kjb-wm-h2g" firstAttribute="top" secondItem="gOZ-LD-Qfo" secondAttribute="top" constant="3" id="DYR-p9-Tk2"/>
+                                        <constraint firstAttribute="bottom" secondItem="iji-Vb-z3a" secondAttribute="bottom" constant="4" id="Drq-m8-KOa"/>
+                                        <constraint firstItem="11f-xP-Qoz" firstAttribute="leading" secondItem="gOZ-LD-Qfo" secondAttribute="leading" id="Iht-Iu-0Jr"/>
+                                        <constraint firstItem="Z6N-p9-A1c" firstAttribute="centerY" secondItem="gOZ-LD-Qfo" secondAttribute="centerY" id="OqZ-qn-Edc"/>
+                                        <constraint firstItem="11f-xP-Qoz" firstAttribute="top" secondItem="gOZ-LD-Qfo" secondAttribute="top" id="WYy-BX-x9o"/>
+                                        <constraint firstAttribute="trailing" secondItem="Z6N-p9-A1c" secondAttribute="trailing" constant="18.5" id="WuG-hQ-pxW"/>
+                                        <constraint firstAttribute="trailing" secondItem="iji-Vb-z3a" secondAttribute="trailing" constant="52.5" id="ZKD-gM-fUH"/>
+                                        <constraint firstItem="kjb-wm-h2g" firstAttribute="leading" secondItem="gOZ-LD-Qfo" secondAttribute="leading" constant="8" id="iQy-8M-B55"/>
+                                        <constraint firstAttribute="bottom" secondItem="11f-xP-Qoz" secondAttribute="bottom" id="naX-mL-8IB"/>
+                                        <constraint firstItem="iji-Vb-z3a" firstAttribute="leading" secondItem="gOZ-LD-Qfo" secondAttribute="leading" constant="8" id="oKL-kK-e4V"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="McF-45-dqR">
+                                    <rect key="frame" x="172" y="5" width="1" height="36"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="1" id="ai9-To-hdN"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b9m-C3-yZe">
+                                    <rect key="frame" x="173" y="0.0" width="171" height="45"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="本月累计佣金tuijian_03.png" translatesAutoresizingMaskIntoConstraints="NO" id="5X9-Gd-mcF">
+                                            <rect key="frame" x="132" y="10" width="20" height="25"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="20" id="JwU-xA-jmj"/>
+                                                <constraint firstAttribute="height" constant="25" id="WfM-eN-ApP"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9pq-gZ-byF">
+                                            <rect key="frame" x="8" y="3" width="110" height="20"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="20" id="3Ef-oE-kWI"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="累计已收佣金：" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Zf-he-myE">
+                                            <rect key="frame" x="8" y="20" width="110.5" height="20"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="20" id="S2l-lg-EpO"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NEV-ad-c6z">
+                                            <rect key="frame" x="-1" y="0.0" width="171.5" height="45"/>
+                                            <connections>
+                                                <action selector="allMonthMoneyButtonOnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="c8v-rf-DO1"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstItem="9pq-gZ-byF" firstAttribute="leading" secondItem="b9m-C3-yZe" secondAttribute="leading" constant="7.5" id="2ki-Gt-uxA"/>
+                                        <constraint firstAttribute="trailing" secondItem="6Zf-he-myE" secondAttribute="trailing" constant="52.5" id="46A-NL-JC7"/>
+                                        <constraint firstItem="9pq-gZ-byF" firstAttribute="top" secondItem="b9m-C3-yZe" secondAttribute="top" constant="3" id="5dz-Ak-JEN"/>
+                                        <constraint firstItem="NEV-ad-c6z" firstAttribute="top" secondItem="b9m-C3-yZe" secondAttribute="top" id="AIY-iv-2Ew"/>
+                                        <constraint firstAttribute="bottom" secondItem="NEV-ad-c6z" secondAttribute="bottom" id="BFk-tQ-zpx"/>
+                                        <constraint firstAttribute="trailing" secondItem="9pq-gZ-byF" secondAttribute="trailing" constant="53" id="CMA-eX-tvP"/>
+                                        <constraint firstItem="NEV-ad-c6z" firstAttribute="leading" secondItem="b9m-C3-yZe" secondAttribute="leading" constant="-0.5" id="Kcg-Pw-RH5"/>
+                                        <constraint firstAttribute="trailing" secondItem="NEV-ad-c6z" secondAttribute="trailing" constant="0.5" id="Mab-aq-34w"/>
+                                        <constraint firstAttribute="trailing" secondItem="5X9-Gd-mcF" secondAttribute="trailing" constant="18.5" id="Ws8-bY-oS5"/>
+                                        <constraint firstItem="5X9-Gd-mcF" firstAttribute="centerY" secondItem="b9m-C3-yZe" secondAttribute="centerY" id="ZI9-js-xvf"/>
+                                        <constraint firstAttribute="bottom" secondItem="6Zf-he-myE" secondAttribute="bottom" constant="5" id="dGA-CQ-GVw"/>
+                                        <constraint firstItem="6Zf-he-myE" firstAttribute="leading" secondItem="b9m-C3-yZe" secondAttribute="leading" constant="8" id="k88-Si-oq2"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="Mlw-eD-sp2" firstAttribute="top" secondItem="jGj-BQ-Z9t" secondAttribute="top" id="0P4-LC-RfU"/>
+                                <constraint firstAttribute="trailing" secondItem="b9m-C3-yZe" secondAttribute="trailing" id="23W-gm-1Rc"/>
+                                <constraint firstItem="gOZ-LD-Qfo" firstAttribute="top" secondItem="jGj-BQ-Z9t" secondAttribute="top" id="7Ru-uN-H5L"/>
+                                <constraint firstAttribute="height" constant="45" id="8m3-Lc-1Rs"/>
+                                <constraint firstItem="McF-45-dqR" firstAttribute="centerX" secondItem="jGj-BQ-Z9t" secondAttribute="centerX" id="H2W-xP-Zt6"/>
+                                <constraint firstAttribute="bottom" secondItem="gOZ-LD-Qfo" secondAttribute="bottom" id="Imb-YJ-rGF"/>
+                                <constraint firstItem="gOZ-LD-Qfo" firstAttribute="leading" secondItem="jGj-BQ-Z9t" secondAttribute="leading" id="JEc-fO-qHP"/>
+                                <constraint firstAttribute="bottom" secondItem="b9m-C3-yZe" secondAttribute="bottom" id="PON-3G-cwK"/>
+                                <constraint firstItem="b9m-C3-yZe" firstAttribute="leading" secondItem="McF-45-dqR" secondAttribute="trailing" id="RSR-cQ-bD2"/>
+                                <constraint firstItem="b9m-C3-yZe" firstAttribute="top" secondItem="jGj-BQ-Z9t" secondAttribute="top" id="Rty-HH-qvg"/>
+                                <constraint firstAttribute="bottom" secondItem="Mlw-eD-sp2" secondAttribute="bottom" id="Vfl-on-nmc"/>
+                                <constraint firstAttribute="trailing" secondItem="Mlw-eD-sp2" secondAttribute="trailing" id="f8X-K0-lac"/>
+                                <constraint firstItem="McF-45-dqR" firstAttribute="top" secondItem="jGj-BQ-Z9t" secondAttribute="top" constant="5" id="koH-Fs-HnR"/>
+                                <constraint firstItem="McF-45-dqR" firstAttribute="leading" secondItem="gOZ-LD-Qfo" secondAttribute="trailing" id="l6d-kf-wei"/>
+                                <constraint firstItem="Mlw-eD-sp2" firstAttribute="leading" secondItem="jGj-BQ-Z9t" secondAttribute="leading" id="tIs-gp-bpk"/>
+                                <constraint firstItem="McF-45-dqR" firstAttribute="centerY" secondItem="jGj-BQ-Z9t" secondAttribute="centerY" id="zVW-aT-SVx"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="今日佣金结算" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mp1-XI-twq">
+                            <rect key="frame" x="9" y="12" width="106" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="106" id="Sa2-9i-WCk"/>
+                                <constraint firstAttribute="height" constant="21" id="xV1-nB-GIg"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0元" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jtl-q3-jTw">
+                            <rect key="frame" x="8" y="65" width="328" height="35"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="35" id="OmO-IF-qd5"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BwH-pS-BxX">
+                            <rect key="frame" x="303" y="11" width="28" height="26"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="28" id="cFY-ek-ATR"/>
+                                <constraint firstAttribute="height" constant="26" id="ssH-zi-d1P"/>
+                            </constraints>
+                            <state key="normal" backgroundImage="日历tuijian_03.png"/>
+                            <connections>
+                                <action selector="calenderButtonOnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="NgZ-bk-O4F"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="Er1-g9-KUk" firstAttribute="top" secondItem="gVx-Qg-0Oh" secondAttribute="top" id="2Tu-cG-nIp"/>
+                        <constraint firstItem="Jtl-q3-jTw" firstAttribute="leading" secondItem="gVx-Qg-0Oh" secondAttribute="leading" constant="8" id="5LK-Cc-2Bu"/>
+                        <constraint firstAttribute="bottom" secondItem="jGj-BQ-Z9t" secondAttribute="bottom" id="6o2-xz-PZt"/>
+                        <constraint firstItem="Jtl-q3-jTw" firstAttribute="centerX" secondItem="gVx-Qg-0Oh" secondAttribute="centerX" id="9Wr-8p-ifq"/>
+                        <constraint firstAttribute="width" secondItem="gVx-Qg-0Oh" secondAttribute="height" multiplier="344:165" id="9ki-fr-M3A"/>
+                        <constraint firstItem="Jtl-q3-jTw" firstAttribute="centerY" secondItem="gVx-Qg-0Oh" secondAttribute="centerY" id="A3b-e8-PBV"/>
+                        <constraint firstAttribute="trailing" secondItem="Er1-g9-KUk" secondAttribute="trailing" id="N2U-mQ-RWo"/>
+                        <constraint firstAttribute="trailing" secondItem="jGj-BQ-Z9t" secondAttribute="trailing" id="Nkj-My-g1n"/>
+                        <constraint firstItem="Mp1-XI-twq" firstAttribute="top" secondItem="gVx-Qg-0Oh" secondAttribute="top" constant="12" id="S4V-QL-lpY"/>
+                        <constraint firstItem="BwH-pS-BxX" firstAttribute="top" secondItem="gVx-Qg-0Oh" secondAttribute="top" constant="11" id="S8Q-JF-nCc"/>
+                        <constraint firstItem="jGj-BQ-Z9t" firstAttribute="leading" secondItem="gVx-Qg-0Oh" secondAttribute="leading" id="Snp-aq-YyY"/>
+                        <constraint firstItem="Er1-g9-KUk" firstAttribute="leading" secondItem="gVx-Qg-0Oh" secondAttribute="leading" id="ah4-pg-Y1G"/>
+                        <constraint firstAttribute="trailing" secondItem="BwH-pS-BxX" secondAttribute="trailing" constant="13" id="pmQ-PE-iEY"/>
+                        <constraint firstItem="Mp1-XI-twq" firstAttribute="leading" secondItem="gVx-Qg-0Oh" secondAttribute="leading" constant="9" id="qNE-W0-xS6"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="gVx-Qg-0Oh" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="D8k-yn-byX"/>
+                <constraint firstItem="gVx-Qg-0Oh" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="17" id="ISW-0b-w9K"/>
+                <constraint firstAttribute="trailing" secondItem="gVx-Qg-0Oh" secondAttribute="trailing" constant="16" id="ycY-zg-RGN"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="allMonthMoney" destination="9pq-gZ-byF" id="e0d-xw-kUw"/>
+                <outlet property="calenderButton" destination="BwH-pS-BxX" id="0gC-PP-ft1"/>
+                <outlet property="currentMonthMoney" destination="kjb-wm-h2g" id="8eN-uF-PLz"/>
+                <outlet property="midLabelContent" destination="Jtl-q3-jTw" id="dBc-kG-PM3"/>
+            </connections>
+            <point key="canvasLocation" x="257.5" y="253"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="推荐人佣金结算上_03.png" width="601" height="229"/>
+        <image name="推荐人佣金结算下2_03.png" width="601" height="91"/>
+        <image name="日历tuijian_03.png" width="32" height="30"/>
+        <image name="本月累计佣金tuijian_03.png" width="24" height="29"/>
+    </resources>
+</document>

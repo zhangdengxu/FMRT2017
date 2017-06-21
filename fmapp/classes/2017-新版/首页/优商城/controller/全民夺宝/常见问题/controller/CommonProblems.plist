@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>1.什么是夺宝币？</string>
+		<key>detail</key>
+		<array>
+			<dict>
+				<key>content</key>
+				<string>夺宝币是全民夺宝的代币，用户每花费1元即可获得1个夺宝币；1个夺宝币投注后分配1个夺宝号码。同时还可以参加活动获得——
+
+① 新用户注册成功即可获得5枚夺宝币； 
+
+② 融米积分兑换100:1，即原有100积分，可兑换1枚夺宝币；
+
+③ 注资活动专标，每充值1000元，送一枚夺宝币，单次存入上线10币；
+
+④ 转发活动页面至微信朋友圈，及邀请好友注册成功，均可抽取5-10积分，最高获得夺宝币1枚（每天限领3次），邀请好友不限次数。</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>2.新版全民夺宝都有哪些改变？</string>
+		<key>detail</key>
+		<array>
+			<dict>
+				<key>content</key>
+				<string>中奖几率更高、不足100%也开奖、流标退币。
+ ① 中奖概率提高：不同商品，视情况分1币抽奖得、5币抽奖得、老友价购买三种获得方式。三种方式均可以同时参加，增加中奖概率。  ② 不足100%也开奖：规定时间内，满50%即可开奖；满200%，开奖两次；超过100%不足200%的，开奖一次，超过100%的夺宝币退还至账户；开奖后，根距中奖号码，取离中奖号码最近的夺宝号码颁奖，若两号码与中奖号码差值一致，取数值最大的夺宝号码。  ③ 流标退币：规定夺宝时间内，如进度未满50%视为流标。则所有参与用户夺宝币原路返回；如当前进度130%，则前100%开奖，后30%投放夺宝币退回。</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>3.全民夺宝是怎样计算中奖号码的？</string>
+		<key>detail</key>
+		<array>
+			<dict>
+				<key>content</key>
+				<string>（1）商品的截止时间点内最后一个号码认购完毕后，将公示该认购时间点前本站全部商品的最后20个记录的参与时间（包括该商品最后一个参与时间）；
+
+（2）将这20条记录的时间按照时、分、秒、毫秒组合（如19:23:54.124则是192354124），然后相加，得到数值A；
+
+（3）最新一期中国福利彩票老时时彩的开奖结果为数值B；
+
+（4）数值A与数值B相加之和，除以商品总需人次数，得到一个余数，用这个余数加上原始数10001，得到幸运号码。拥有该幸运号码者，获得该商品。</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>4.中奖号码的计算结果可信吗？</string>
+		<key>detail</key>
+		<array>
+			<dict>
+				<key>content</key>
+				<string> 由于使用了“老时时彩”揭晓结果作为参数，因此中奖号码肯定是未知的，确保绝对公平公正，您可以绝对相信计算结果真实、可信。 </string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>5. 怎样查看是否成为幸运用户？</string>
+		<key>detail</key>
+		<array>
+			<dict>
+				<key>content</key>
+				<string>若商品揭晓，在商品详情页，点击查看参与记录，即可知道该期夺宝的获得者；
+
+如您中奖，位于首页右侧浮标处个人中心将出现中奖信息提示，请及时查看。</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>6.商品是正品吗？可以退换货吗？</string>
+		<key>detail</key>
+		<array>
+			<dict>
+				<key>content</key>
+				<string>全民夺宝所有商品由第三方提供，享受第三方承诺提供的三包及其它售后服务。本次活动为折扣商品，拍前请您看好款式、尺码、颜色等，一经付款，不给予退换货。</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,156 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+
+#import "FMFunctions.h" 
+#import "FMNotification.h"
+#import "UIImageView+WebCache.h"        //SDWebImage缓存网络图片
+#import "MBProgressHUD.h"
+#import "ThemeManager.h"
+#import "KRongTuoHeaderUrl.h"
+#import "FMShowWaitView.h"
+// 请求数据
+#import "CurrentUserInformation.h"
+#import "HTTPClient.h"
+#import "MJRefresh.h"
+#import "LoginController.h" // 登录
+#import "NSString+Extension.h"
+#import "HexColor.h"
+#import "NSURL+FMHttpsUrl.h"
+
+#define MAS_SHORTHAND
+
+#define MAS_SHORTHAND_GLOBALS
+
+#import "Masonry.h"
+
+#endif
+
+
+#define kFontAwesomeFamilyName @"FontAwesome"
+
+/*接口地址
+ */
+#define kBaseAPIURL  @"https://www.rongtuojinrong.com/Rongtuoxinsoc/"//测试环境
+#define KJmobileApiURL @"https://www.rongtuojinrong.com/Jmobile/"
+
+
+//Umeng地址
+#define kUmengKey @"54eab7acfd98c5a2770000fa"
+//ShareSDK
+#define kShareSDKAppKey @"b0cea1638d1"
+
+
+
+
+
+
+
+
+//微信KEY
+//#define kWeiXinKey          @"wx8027d409dd974b7c"//旧的
+#define kWeiXinKey          @"wx34e249b62b7f7f93"//新的
+//#define kWeiXinKey          @"wxdff6bac1ee203552"//第三个
+///微信APPSecretKey
+//#define KWeiXinAPPSecretKey @"73ef455b9ae0e0bd54e20f7ec334e657"//旧的
+#define KWeiXinAPPSecretKey @"3ce6c6e2799f35663cf8ee26af728419"//新的
+//#define KWeiXinAPPSecretKey @"305d710b854576713644cd9a9027763f"//第三个
+
+
+
+
+
+
+
+
+
+//程序后台版本号  //真实环境链接。   十月底的版本是4 十一月二十号的版本是5
+#define KAppCodeVersion @"11"    //十二月十三号的版本是6，十二月28号的版本是7 // 3月27号是8
+//本版app是否需要显示开机广告屏   0代表不显示，1代表显示
+#define KDefaultNewAppRefresh @"0"
+
+//warning ***  如果要上线的话一定要把推荐人手机号清空  ***企业版必须加上推荐人手机号
+// 推荐人手机号
+#define kRecommendPersonNamePhoneNumber @""
+// 推荐人userID
+#define kRecommendUserID @""
+
+
+
+
+
+
+#define kXZTestEnvironment @"https://www.rongtuojinrong.com/java"
+// 全民夺宝分享回调
+#define kXZShareCallBackUrl @"http://api. rongtuojinrong.com"
+
+
+//微博 AppKey
+#define kWeiboAppKey @"2229255698"
+//微博token
+#define kWeiboAppSecret @"644b66a6f00ade2db3891b956b2d727d"
+//微博重定向地址
+#define kWeiboRedirectURL @"http://sns.whalecloud.com/sina2/callback"
+//百度开发者平台申请的KEY
+#define BAIDU_VOICE_API_KEY     @"HyChamjPNm2ARICmm2cWk7WF"
+#define BAIDU_VOICE_SECRET_KEY  @"PAaFwrvGwKPiyWb8AsmStPx8m5LkgBas"
+
+
+
+
+#define FMWeakSelf  __weak typeof (self)weakSelf = self;
+
+
+//全局打印方法
+#define   Log(fmt, ...) [NSString stringWithFormat:fmt, ##__VA_ARGS__];
+
+//全局显示方法
+
+#define Show(fmt, ...) [NSString stringWithFormat:fmt, ##__VA_ARGS__];
+// RGB颜色
+#define XZColor(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+//通用PHP接口
+#define kFMPhpUniversalBaseUrl(DomainName) [NSString stringWithFormat:@"https://www.rongtuojinrong.com/%@",DomainName]
+
+// 通用的测试接口
+#define kXZUniversalTestUrl(CmdId) [NSString stringWithFormat:@"http://192.168.1.105:8081/esb?CmdId=%@",CmdId]
+//https://www.rongtuojinrong.com/esb 上次上线
+
+// https://www.rongtuojinrong.com/devesb/   =   http://devesb.rongtuojinrong.com/
+
+//https://www.rongtuojinrong.com/devesb/esb   =  http://devesb.rongtuojinrong.com/esb(5月31号更改)
+
+// 徽商银行电子交易协议/账户服务三方协议
+#define kXZWebViewUrl(url) [NSString stringWithFormat:@"http://192.168.1.110:8088/esb%@",url]
+
+//模式选择
+#define ThemeCategory [[NSString stringWithFormat:@"%@",[[NSUserDefaults standardUserDefaults] objectForKey:@"PersonalityThemeIndexInteger"]] integerValue]
+
+//支付成功或失败的通知
+#define KPAYINFOWITHSUCCESSORFAIL @"KPAYINFOWITHSUCCESSORFAIL"
+
+
+
+
+
+//测试环境
+//
+//商城活动接口服务器地址：
+//http://114.55.115.60:-18080/
+//老链接http://api.rongtuojinrong.-com/
+//商城活动后台管理地址：
+//http://114.55.115.60:-8090/index
+//用户名：test
+//密码：rongtuo123
+//

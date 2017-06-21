@@ -1,0 +1,421 @@
+[
+  [
+    {
+      "isMultiple" : false,
+      "isSelected" : false,
+      "name" : "您的性别是：",
+      "score" : 0,
+      "type" : ""
+    },
+    {
+      "isMultiple" : false,
+      "isSelected" : false,
+      "name" : "A、男",
+      "score" : 0,
+      "type" : "A"
+    },
+    {
+      "isMultiple" : false,
+      "isSelected" : false,
+      "name" : "B、女",
+      "score" : 0,
+      "type" : "B"
+    }
+  ],
+  [
+    {
+      "isMultiple" : false,
+      "isSelected" : false,
+      "name" : "您的年龄是：",
+      "score" : 0,
+      "type" : ""
+    },
+    {
+      "isMultiple" : false,
+      "isSelected" : false,
+      "name" : "A、25岁以下",
+      "score" : 10,
+      "type" : "A"
+    },
+    {
+      "isMultiple" : false,
+      "isSelected" : false,
+      "name" : "B、25岁(含)至40岁",
+      "score" : 8,
+      "type" : "B"
+    },
+    {
+      "isMultiple" : false,
+      "isSelected" : false,
+      "name" : "C、40岁(含)至50岁",
+      "score" : 5,
+      "type" : "C"
+    },
+    {
+      "isMultiple" : false,
+      "isSelected" : false,
+      "name" : "D、50岁(含)至60岁",
+      "score" : 3,
+      "type" : "D"
+    },
+    {
+      "isMultiple" : false,
+      "isSelected" : false,
+      "name" : "E、60岁(含)以上",
+      "score" : 0,
+      "type" : "E"
+    }
+  ],
+  [
+    {
+      "isMultiple" : false,
+      "isSelected" : false,
+      "name" : "您的月收入为(折合人民币)？",
+      "score" : 0,
+      "type" : ""
+    },
+    {
+      "isMultiple" : false,
+      "isSelected" : false,
+      "name" : "A、10000元及以上",
+      "score" : 10,
+      "type" : "A"
+    },
+    {
+      "isMultiple" : false,
+      "isSelected" : false,
+      "name" : "B、7000元-10000元",
+      "score" : 8,
+      "type" : "B"
+    },
+    {
+      "isMultiple" : false,
+      "isSelected" : false,
+      "name" : "C、5000元-7000元",
+      "score" : 5,
+      "type" : "C"
+    },
+    {
+      "isMultiple" : false,
+      "isSelected" : false,
+      "name" : "D、3000元-5000元",
+      "score" : 3,
+      "type" : "D"
+    },
+    {
+      "isMultiple" : false,
+      "isSelected" : false,
+      "name" : "E、3000元",
+      "score" : 0,
+      "type" : "E"
+    }
+  ],
+  [
+    {
+      "isMultiple" : false,
+      "isSelected" : false,
+      "name" : "您目前的资产状况如何？",
+      "score" : 0,
+      "type" : ""
+    },
+    {
+      "isMultiple" : false,
+      "isSelected" : false,
+      "name" : "A、自住不动产，无房贷无车贷",
+      "score" : 10,
+      "type" : "A"
+    },
+    {
+      "isMultiple" : false,
+      "isSelected" : false,
+      "name" : "B、自住不动产，有房贷无车贷",
+      "score" : 8,
+      "type" : "B"
+    },
+    {
+      "isMultiple" : false,
+      "isSelected" : false,
+      "name" : "C、自住不动产，有房贷有车贷",
+      "score" : 5,
+      "type" : "C"
+    },
+    {
+      "isMultiple" : false,
+      "isSelected" : false,
+      "name" : "D、收入稳定，没有不动产",
+      "score" : 3,
+      "type" : "D"
+    },
+    {
+      "isMultiple" : false,
+      "isSelected" : false,
+      "name" : "E、收入不稳定",
+      "score" : 0,
+      "type" : "E"
+    }
+  ],
+  [
+    {
+      "isMultiple" : false,
+      "isSelected" : false,
+      "name" : "您比较喜欢什么样的理财产品？",
+      "score" : 0,
+      "type" : ""
+    },
+    {
+      "isMultiple" : false,
+      "isSelected" : false,
+      "name" : "A、风险较大，收益较高，期限长短无所谓",
+      "score" : 10,
+      "type" : "A"
+    },
+    {
+      "isMultiple" : false,
+      "isSelected" : false,
+      "name" : "B、风险适中，偏好短期投资",
+      "score" : 8,
+      "type" : "B"
+    },
+    {
+      "isMultiple" : false,
+      "isSelected" : false,
+      "name" : "C、收益可以具有波动性，但至少得保证本金安全",
+      "score" : 5,
+      "type" : "C"
+    },
+    {
+      "isMultiple" : false,
+      "isSelected" : false,
+      "name" : "D、理财就是为了赚取收益，哪怕收益率低点",
+      "score" : 3,
+      "type" : "D"
+    },
+    {
+      "isMultiple" : false,
+      "isSelected" : false,
+      "name" : "E、投资能够保本保息就可以，收益率低于通胀率也无所谓",
+      "score" : 0,
+      "type" : "E"
+    }
+  ],
+  [
+    {
+      "isMultiple" : true,
+      "isSelected" : false,
+      "name" : "您目前投资了哪些品种？(多选)",
+      "score" : 0,
+      "type" : ""
+    },
+    {
+      "isMultiple" : true,
+      "isSelected" : false,
+      "name" : "A、期货 外汇 贵金属",
+      "score" : 10,
+      "type" : "A"
+    },
+    {
+      "isMultiple" : true,
+      "isSelected" : false,
+      "name" : "B、股票 基金 信托",
+      "score" : 8,
+      "type" : "B"
+    },
+    {
+      "isMultiple" : true,
+      "isSelected" : false,
+      "name" : "C、互联网投融资平台",
+      "score" : 5,
+      "type" : "C"
+    },
+    {
+      "isMultiple" : true,
+      "isSelected" : false,
+      "name" : "D、银行理财 保险",
+      "score" : 3,
+      "type" : "D"
+    },
+    {
+      "isMultiple" : true,
+      "isSelected" : false,
+      "name" : "E、无",
+      "score" : 0,
+      "type" : "E"
+    }
+  ],
+  [
+    {
+      "isMultiple" : false,
+      "isSelected" : false,
+      "name" : "您对理财产品一般投资期限为：",
+      "score" : 0,
+      "type" : ""
+    },
+    {
+      "isMultiple" : false,
+      "isSelected" : false,
+      "name" : "A、2-3年期限",
+      "score" : 10,
+      "type" : "A"
+    },
+    {
+      "isMultiple" : false,
+      "isSelected" : false,
+      "name" : "B、1年以上",
+      "score" : 8,
+      "type" : "B"
+    },
+    {
+      "isMultiple" : false,
+      "isSelected" : false,
+      "name" : "C、12个月及12个月以内",
+      "score" : 5,
+      "type" : "C"
+    },
+    {
+      "isMultiple" : false,
+      "isSelected" : false,
+      "name" : "D、6个月及6个月以内",
+      "score" : 3,
+      "type" : "D"
+    },
+    {
+      "isMultiple" : false,
+      "isSelected" : false,
+      "name" : "E、3个月及3个月以内",
+      "score" : 0,
+      "type" : "E"
+    }
+  ],
+  [
+    {
+      "isMultiple" : false,
+      "isSelected" : false,
+      "name" : "您对投资收益波动可接受的程度是什么？",
+      "score" : 0,
+      "type" : ""
+    },
+    {
+      "isMultiple" : false,
+      "isSelected" : false,
+      "name" : "A、不在乎波动",
+      "score" : 10,
+      "type" : "A"
+    },
+    {
+      "isMultiple" : false,
+      "isSelected" : false,
+      "name" : "B、波动是正常现象，可以接受亏损",
+      "score" : 8,
+      "type" : "B"
+    },
+    {
+      "isMultiple" : false,
+      "isSelected" : false,
+      "name" : "C、可以接受轻微波动",
+      "score" : 5,
+      "type" : "C"
+    },
+    {
+      "isMultiple" : false,
+      "isSelected" : false,
+      "name" : "D、收益越稳定越好，更关心资产保值",
+      "score" : 3,
+      "type" : "D"
+    },
+    {
+      "isMultiple" : false,
+      "isSelected" : false,
+      "name" : "E、不能接受任何投资波动",
+      "score" : 0,
+      "type" : "E"
+    }
+  ],
+  [
+    {
+      "isMultiple" : false,
+      "isSelected" : false,
+      "name" : "您选择融托金融投资理财最看重什么？",
+      "score" : 0,
+      "type" : ""
+    },
+    {
+      "isMultiple" : false,
+      "isSelected" : false,
+      "name" : "A、高收益",
+      "score" : 10,
+      "type" : "A"
+    },
+    {
+      "isMultiple" : false,
+      "isSelected" : false,
+      "name" : "B、收益可观，平台信誉好",
+      "score" : 8,
+      "type" : "B"
+    },
+    {
+      "isMultiple" : false,
+      "isSelected" : false,
+      "name" : "C、朋友推荐来的，很靠谱",
+      "score" : 5,
+      "type" : "C"
+    },
+    {
+      "isMultiple" : false,
+      "isSelected" : false,
+      "name" : "D、以前在这投资过，信任",
+      "score" : 3,
+      "type" : "D"
+    },
+    {
+      "isMultiple" : false,
+      "isSelected" : false,
+      "name" : "E、零坏账零延迟，本息更安全",
+      "score" : 0,
+      "type" : "E"
+    }
+  ],
+  [
+    {
+      "isMultiple" : false,
+      "isSelected" : false,
+      "name" : "您从什么时候开始选择互联网金融平台进行投资并赚取收益的呢？",
+      "score" : 0,
+      "type" : ""
+    },
+    {
+      "isMultiple" : false,
+      "isSelected" : false,
+      "name" : "A、3年前",
+      "score" : 10,
+      "type" : "A"
+    },
+    {
+      "isMultiple" : false,
+      "isSelected" : false,
+      "name" : "B、2年前",
+      "score" : 8,
+      "type" : "B"
+    },
+    {
+      "isMultiple" : false,
+      "isSelected" : false,
+      "name" : "C、1年前",
+      "score" : 5,
+      "type" : "C"
+    },
+    {
+      "isMultiple" : false,
+      "isSelected" : false,
+      "name" : "D、半年前",
+      "score" : 3,
+      "type" : "D"
+    },
+    {
+      "isMultiple" : false,
+      "isSelected" : false,
+      "name" : "E、新手，没多长时间",
+      "score" : 0,
+      "type" : "E"
+    }
+  ]
+]
