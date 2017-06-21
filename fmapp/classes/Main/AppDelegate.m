@@ -184,8 +184,6 @@
 
 -(void)presentFigureUnLuckViewController{
     
-    
-
     if ([[PCCircleViewConst getGestureWithKey:gestureFinalSaveKey] length]) {
         GestureViewController *gestureVc = [[GestureViewController alloc] init];
         [gestureVc setType:GestureViewControllerTypeLogin];
@@ -220,7 +218,6 @@
     [self.window makeKeyAndVisible];
 //    // 请求广告数据并存储
 //    [self getAdsDataFromNetWork];
-    
 }
 
 // 后台30天或者是首次启动App
@@ -240,7 +237,6 @@
     [self.gestureWindow setHidden:YES];
     self.window.rootViewController = self.tabBar;
     [self.window makeKeyAndVisible];
-    
 }
 
 // 创建根控制器
@@ -256,7 +252,6 @@
 - (BOOL)tabBarController:(UITabBarController *)tabBarController shouldSelectViewController:(UIViewController *)viewController{
     
     FMNavigationController * current = (FMNavigationController *)viewController;
-    
     if([current.topViewController isKindOfClass:[YYMineViewController class]]){
         if(![CurrentUserInformation sharedCurrentUserInfo].userLoginState){
             FMNavigationController * nav = [[FMNavigationController alloc]initWithRootViewController:[[LoginController alloc]init]];
@@ -266,13 +261,11 @@
             }];
             return NO;
         }else{
-            
             [self.tabBar.tabBar hideBadgeOnItemIndex:3];
             self.isMyAcount = NO;
             return YES;
         }
     }else{
-        
         if([current.topViewController isKindOfClass:[FMRTHomeViewController class]]){
             self.isMainVC = YES;
         }
